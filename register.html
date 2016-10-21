@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Main Page</title>
+		<style>
+			#hoverpara:hover {
+				color:yellow;
+				font-size:2cm;
+				}
+				#img1:hover {}
+		</style>
+	<body>
+		<form method="get" action="bouncer.php">
+			<table>
+				<tr>
+					<td>First Name:</td>
+					<td><input type="text" name="firstname" value="enter name here"/></td>
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><input type="text" name="firstname" value="enter name here"/></td>
+				</tr>
+				<tr>
+					<td><label for="gender">Male:</label></td>
+					<td><input type="radio" name="gender" id="male" value="m"/></td>
+				</tr>
+				<tr>
+					<td><label for="gender">Female:</label></td>
+					<td><input type="radio" name="gender"id="female" checked="checked" value="f"/></td>
+				</tr>
+				<tr>
+					<td><label for="age">Age:</label></td>
+					<td><input type="number" name="age"id="age" min="18" max="34"/></td>
+				</tr>
+				<tr>
+					<td><label for="formnum">Hidden:</label></td>
+					<td><input type="hidden" name="formnum" id="formnum" /></td>
+				</tr>
+				<tr>
+					<td><label for="dest">Favorite Vacation Destination:</label></td>
+					<td> 
+						<select id="dest" name="dest">
+							<option value="HW">Hawaii</option>
+							<option value="SF">SanFran</option>
+							<option value="RD">Red Deer</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="about">Tell us about yourself:</label></td>
+					<td>
+						<textarea name="about" id="about" rows="12" col="23">
+						Enter text here
+						</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="pwd">Password:</label></td>
+					<td><input type="password" name="pwd"/></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Send"/></td>
+				</tr>
+				<tr>
+					<td>Username: <input type="text" name="usrname"></td>
+				</tr>
+				<tr>
+					<td>Username:<input type="submit" value="Submit"/></td>
+				</tr>
+				
+			
+			</table>
+		</form>
+	</body>
+	</head>
+</html>

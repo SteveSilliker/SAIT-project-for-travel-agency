@@ -1,0 +1,323 @@
+@charset "utf-8";
+@import url("reset.css");
+@import url("text.css");
+@import url("forms.css");
+/* CSS Document */
+
+html {
+}
+
+body {
+	color: rgb(0, 0, 0);
+	background-attachment: fixed;
+	background-color: rgb(242, 194, 28);
+	background-image: url(../img/bbbg.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+a.linkmark {
+	margin-top: 125px;
+	clear: both;
+	display: block;
+}
+
+.left { 
+	float: left; 
+}
+
+.right {
+	float: right;
+}
+
+.level {
+	display: block;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+
+.clear {
+	display: block;
+	margin: 0 0 -1px;
+	padding: 0px;
+	clear: both;
+	float: none;
+	height: 1px;
+	list-style: none;
+}
+
+#matrix {
+	display: block;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	width: 100%;
+	min-height: 200%;
+}
+
+#topheader {
+	background: #333;
+	height: 100px;
+}
+
+#content {
+	background: url(../img/arch.png) center top no-repeat;
+	padding: 58px 0 0;
+}
+
+#contentb {
+	padding: 0;
+}
+
+#content .content {
+	background-color: rgb(254,203,63);
+	display: block;
+	margin: 0px auto;
+	clear: both;
+}
+
+#header {
+	height: 100px;
+}
+
+#core {
+}
+
+#header, #core {
+	display: block;
+	margin: 0px auto;
+	padding: 0px;
+	clear: both;
+	width: 980px;
+}
+
+#navi {
+	margin: 0;
+	padding: 0 5px;
+}
+
+#topheader #navi {
+	float: right;
+	width: 740px;
+	margin-top: 60px;
+	padding: 0;
+}
+
+#navi .content{
+	margin: 0 auto;
+	width: 960px;
+}
+
+#openBox, #main {
+	display: block;
+	width: 800px;
+	margin: 0px auto;
+	padding: 0 0 10px;
+	clear: both;
+}
+
+#logo {
+	margin: -35px 0 0 -25px;
+	width: 220px;
+}
+
+#basefooter {
+	font-size: 0.9em;
+	clear: both;
+	display: block;
+	left: 0;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: 123;
+	width: 100%;
+	color: #FFF;
+	background-color: #333;
+	background-image: url(../img/bbbg.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+#basefooter .content {
+	margin: 0 auto;
+	width: 980px;
+}
+
+#basefooter * {
+	font-size: 1em;
+}
+
+#menu {
+	margin: 21px 0 0 0;
+	clear: right;
+	width: 720px;
+}
+
+.right_content {
+	width: 350px;
+	clear: right;
+}
+
+.left_content {
+	width: 590px;
+	clear: left;
+}
+
+#contentb .right_content {
+	width: 380px;
+	clear: right;
+}
+
+#contentb .left_content {
+	width: 600px;
+	clear: left;
+}
+
+.intro {
+	margin: 0; 
+	padding: 21px;
+	border: 1px solid #222;
+}
+
+.intro * {
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+}
+
+.intro strong {
+	font-weight: bold;
+}
+
+.intro h1.left {
+	font-size: 3em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	line-height: normal;
+}
+
+#footer {
+	margin: 0 auto 25px;
+	background: rgb(254, 203, 63) url(../img/footer2.jpg) center bottom no-repeat;
+	font-size: 0.9em;
+	clear: both;
+	display: block;
+	padding: 0 0 274px;
+}
+
+#footer .content {
+	width: 305px;
+	margin-right: 128px;
+	padding: 50px 0 16px;
+	float: right;
+}
+#catch h1 {
+	font-weight: 200;
+	line-height: normal;
+	color: #C40500;
+	text-align: center;
+	margin: 5% 20%;
+	font-size: x-large;
+}
+#footer .content ul.grid li {
+	padding: 3px;
+	display: inline;
+	float: left;
+}
+#footer .content ul.grid li a {
+	color: rgb(215, 49, 44);
+	text-decoration: none;
+	font-weight: bold;
+}
+#footer .content ul.grid li #copyright {
+	margin-right: 3px;
+	padding: 5px;
+	text-align: right;
+	width: 128px;
+}
+#main ul.grid#showcase {
+	width: 800px;
+	height: 220px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#main ul.grid#showcase li {
+	width: 260px;
+	height: 220px;
+	display: inline;
+	float: left;
+	margin: 0 10px 0 0;
+	background: url(../img/redframe.png) center center no-repeat;
+}
+#main ul#showcase li.last{
+	margin: 0;
+}
+#main ul#showcase li a {
+	margin: 10px 5px;
+	width: 250px;
+	height: 200px;
+	cursor: default;
+}
+#enquirieq {
+	margin: 0px;
+	padding: 0px;
+	clear: right;
+	float: right;
+	height: 200px;
+	width: 390px;
+}
+#investorq {
+	margin: 0px;
+	padding: 0px;
+	clear: left;
+	float: left;
+	height: 200px;
+	width: 390px;
+}
+#basefooter .content .right p {
+	font-size: small;
+	margin: 5px;
+	padding: 5px;
+}
+ul#foodpics {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+ul#foodpics li {
+	margin-right: 10px;
+	display: inline;
+	float: left;
+}
+ul#foodpics li div.foodPic {
+	height: 150px;
+	width: 190px;
+	overflow: hidden;
+	background: #FFF url(../img/foodbg.jpg) center center no-repeat;
+}
+ul#foodpics li div.foodPic img {
+	width: 190px;
+	height: auto;
+}
+#tickerBox {
+	background: #E70000 url(../img/ticker-bg.jpg) center bottom no-repeat;
+	height: auto;
+	display: block;
+	width: 590px;
+}
+#something {
+	overflow: hidden;
+	position: fixed;
+	z-index: 125;
+	height: 150px;
+	width: 220px;
+	left: 25px;
+	bottom: 0px;
+}
+#basefooter .content .right#copyright {
+	width: 760px;
+	float: right;
+	text-align: right;
+}

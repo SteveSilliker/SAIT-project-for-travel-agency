@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Kilimanjaro... The Taste of Africa!</title>
+<link href="kilimanjaroindex_files/style.css" rel="stylesheet" type="text/css">
+<link href="kilimanjaroindex_files/style.css" rel="stylesheet" type="text/css">
+<script src="kilimanjaroindex_files/SpryMenuBar.js" type="text/javascript"></script>
+<link href="kilimanjaroindex_files/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="kilimanjaroindex_files/jquery-1.js"></script>
+<script type="text/javascript" src="kilimanjaroindex_files/cycle.js"></script>
+<link href="kilimanjaroindex_files/ticker-style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="kilimanjaroindex_files/jquery.js"></script>
+<script type="text/javascript">
+  $(document).ready( function($) {
+    $('#food1').cycle({
+      fx: 'scrollHorz',
+      speed: 1000,
+      pause: 1,
+      timeout: 3500,
+      delay: 500,
+    });
+    $('#food2').cycle({
+      fx: 'scrollHorz',
+      speed: 1000,
+      pause: 1,
+      timeout: 3500,
+      delay: 500,
+    });
+    $('#food3').cycle({
+      fx: 'scrollHorz',
+      speed: 1000,
+      pause: 1,
+      timeout: 3500,
+      delay: 500,
+    });
+	
+	$('#js-news').ticker({titleText: 'Info'});
+	// hide the release history when the page loads
+	$('#release-wrapper').css('margin-top', '-' + ($('#release-wrapper').height() + 20) + 'px');	
+	// show/hide the release history on click
+	$('a[href="#release-history"]').toggle(function () {	
+		$('#release-wrapper').animate({
+			marginTop: '0px'
+		}, 600, 'linear');
+	}, function () {
+		$('#release-wrapper').animate({
+			marginTop: '-' + ($('#release-wrapper').height() + 20) + 'px'
+		}, 600, 'linear');
+	});	
+});
+</script>
+</head><body>
+<div id="matrix">
+  <div id="topheader">
+    <div id="header">
+      <div id="navi">
+      <ul id="MenuBar1" class="MenuBarHorizontal">
+            <li id="home" class="right"><a href="#">Home</a></li>
+            <li id="food" class="right"><a tabindex="-1" href="#">Food</a></li>
+            <li id="about" class="right"><a tabindex="-1" href="http://www.kilimanjaro.getfreehosting.co.uk/about.html">About Us</a></li>
+            <li id="jobs" class="right"><a tabindex="-1" href="#">Careers</a></li>
+            <li id="comm" class="right"><a tabindex="-1" href="#">Communities</a></li>
+            <li id="serv" class="right"><a tabindex="-1" href="http://www.kilimanjaro.getfreehosting.co.uk/services.html">Services</a></li>
+            <li id="promo" class="right"><a tabindex="-1" href="#">Promotions</a></li>
+            <li id="share" class="right"><a tabindex="-1" href="#" class="MenuBarItemSubmenu">Share</a>
+                <ul>
+                    <li><a tabindex="-1" href="#"><img src="kilimanjaroindex_files/facebook.png" alt="Facebook" longdesc="http://www.facebook.com" height="40" width="40"></a></li>
+                    <li><a tabindex="-1" href="#"><img src="kilimanjaroindex_files/twitter.png" alt="Twitter" longdesc="http://www.twitter.com" height="40" width="40"></a></li>
+                    <li><a tabindex="-1" href="#"><img src="kilimanjaroindex_files/myspace.png" alt="MySpace" longdesc="http://myspace.com" height="40" width="40"></a></li>
+                    <li><a tabindex="-1" href="#"><img src="kilimanjaroindex_files/google.png" alt="Google" longdesc="http://www.google.com" height="40" width="40"></a></li>
+                </ul>
+            </li>
+        </ul>
+      </div>
+      <div id="logo"><img src="kilimanjaroindex_files/logo.png" height="170" width="220"></div>
+    </div>
+  </div>
+  <div id="core">
+    <div id="catch">
+      <h1>We are&nbsp;<strong>committed</strong>&nbsp;to serving generous portions of our <strong>great</strong>&nbsp;tasting, popular&nbsp;<strong>African</strong>&nbsp;food in a&nbsp;<strong>friendly</strong>&nbsp;and relaxing environment - the Kilimanjaro&nbsp;<strong>experience.</strong></h1>
+    </div>
+    <div id="contentb">
+      <div class="left_content left">
+        <ul id="foodpics">
+          <li>
+            <div style="overflow: hidden; position: relative;" class="foodPic" id="food1">
+                <img style="position: absolute; top: 0px; left: 0px; display: block; z-index: 4; opacity: 1; width: 190px; height: 152px;" src="kilimanjaroindex_files/food1.png" height="200" width="250">
+                <img style="position: absolute; top: 0px; left: -190px; display: none; z-index: 3; opacity: 1; width: 190px; height: 152px;" src="kilimanjaroindex_files/food2.png" height="200" width="250">
+                <img style="position: absolute; top: 0px; left: -190px; display: none; z-index: 3; opacity: 1; width: 190px; height: 152px;" src="kilimanjaroindex_files/food3.png" height="200" width="250">
+            </div>
+          </li>
+          <li>
+            <div style="overflow: hidden; position: relative;" class="foodPic" id="food2">
+                <img style="position: absolute; top: 0px; left: 0px; display: block; z-index: 4; opacity: 1; width: 190px; height: 152px;" src="kilimanjaroindex_files/food2.png" height="200" width="250">
+                <img style="position: absolute; top: 0px; left: -190px; display: none; z-index: 3; opacity: 1; width: 190px; height: 152px;" src="kilimanjaroindex_files/food3.png" height="200" width="250">
+                <img style="position: absolute; top: 0px; left: -190px; display: none; z-index: 3; opacity: 1; width: 190px; height: 152px;" src="kilimanjaroindex_files/food1.png" height="200" width="250">
+            </div>
+          </li>
+          <li>
+            <div style="overflow: hidden; position: relative;" class="foodPic" id="food3">
+                <img style="position: absolute; top: 0px; left: 0px; display: block; z-index: 4; opacity: 1; width: 190px; height: 152px;" src="kilimanjaroindex_files/food3.png" height="200" width="250">
+                <img style="position: absolute; top: 0px; left: -190px; display: none; z-index: 3; opacity: 1; width: 190px; height: 152px;" src="kilimanjaroindex_files/food1.png" height="200" width="250">
+                <img style="position: absolute; top: 0px; left: -190px; display: none; z-index: 3; opacity: 1; width: 190px; height: 152px;" src="kilimanjaroindex_files/food2.png" height="200" width="250">
+            </div>
+          </li>
+        </ul>
+        <div class="clear"></div>
+        <div id="tickerBox">
+          <div id="ticker-wrapper" class="has-js">
+            <ul id="js-news" class="js-hidden">
+              <li class="news-item"><a href="#">At Kilimanjaro, there's something for everyone!</a></li>
+              <li class="news-item"><a href="#">Find out from a Kilimanjaro near you...</a></li>
+              <li class="news-item"><a href="#">Kilimanjaro... The Taste of Africa!</a></li>
+              <li class="news-item"><a href="#">Facebook: facebook.com/kilimanjaro</a></li>
+              <li class="news-item"><a href="#">Twitter: twitter.com/kilimanjaro</a></li>
+            </ul>
+          <div id="ticker"><div style="" id="ticker-title"><span style="display: inline;">Info</span></div><p style="display: block; left: 53px;" id="ticker-content"><a href="#">Find out from a Kilimanjaro near you...</a></p><div style="left: 53px; margin-left: 228.5px;" id="ticker-swipe"><span style="display: block;"><!-- --></span></div></div><ul id="ticker-controls"><li id="play-pause" class="controls"></li><li id="prev" class="controls"></li><li id="next" class="controls"></li></ul></div>
+        </div>
+      </div>
+      <div class="right_content right">
+          <img src="kilimanjaroindex_files/customer2.jpg" class="left" height="77" width="185">
+          <img src="kilimanjaroindex_files/investor2.jpg" class="right" height="77" width="185">
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div id="basefooter">
+  <div class="content">
+    <div class="right_content right" id="copyright">
+      <p>Â© 2011 The Kilimanjaro Restaurants. A Sundry Foods Company. All Rights Reserved.</p>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div id="something"><img src="kilimanjaroindex_files/something.png" height="176" width="200"></div>
+
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</body></html><!--˜ð=¾#É@½vþ:öNNåWÞ“ÓÛì-åÍóÑ§«jPþX¯ãÐƒX!^Ç–TæE"à£žÛ	ÅƒÆ¨¤sÕÆÆþêu‘ú÷ “gÈ.PÃ'Ë‚l5„£›æÓe¢Ñ]Dˆ+X€Íû'öŸ˜ç›‹Áß†Ò_n˜\ Wœ3Vr>À„—PÑç í‹ü_Êe%ßéåÑä„	Ïíð
+DcÖí ~
+ú+ù›ˆB5sP	ª–
+9Ó?³½¤ºç4CëÁs_ŽY~0ìP^VÈcÕ
+ [g)Ï£ÓP¨VÐï*¹± ƒmV4—Ëkax´ZÒÌÈ¢Vñ¥M!Ã`P=`DjLîš¼ À–Mq”iýOnÀ ï[)XàmQªW™s’¹^ö³è¼1¼á‚i‰Â,¬#_6Üööˆå|LÏ7{ªŽs™.rìéø! ÛÙ RÂúÛÙ ÛÙ ÛÙ –L,ÿO”úÙ  ÛÙ -->

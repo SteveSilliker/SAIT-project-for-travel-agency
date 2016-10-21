@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+   <title>Our first page</title>
+   
+   <style type="text/css">
+      div img { float: all; }
+	  div { background-image: url(bckgrnd1.jpg); background-repeat: repeat }
+      p, pre { 
+	     color: blue;
+	     font-size: 14pt;
+        }
+      .small-red { 
+	     color: red;
+	     font-size: 5mm;
+		 font-variant: small-caps;
+        }
+      p.large-green { 
+	     color: green;
+	     font-size: 1cm;
+        }
+		
+	  input[value] { background-color: red; }
+	  input[ type='password' ] { background-color: blue; }
+      body {
+         background-color: #99CCCC;
+         background-image: url(bckgrnd1.jpg);
+         background-repeat: repeat-y;
+         background-position: 10% 50%;
+         margin-top: 10%;
+         margin-left: 30%;
+      }
+   </style>
+   
+</head>
+<body>
+<div>
+<h1>This is inside the div</h1>
+<pre>
+line1
+line2
+	tabbed line3
+</pre>
+<p class="small-red">This is line zero</p>
+<p class="large-green">This is a line of text<br />
+This is a second line of text</p>
+<p>This is after the paragraph</p>
+
+
+</div>
+
+<form method="post" action="http://hpeters.org/myscript.php">
+   UserID:<input type="text" name="userid" value="Enter UserID here"><br>
+   Password:<input type="password" name="passwd"><br>
+   Hidden:<input type="hidden" name="hidden" value="hidden field"><br>
+   Checkbox:<input type="checkbox" name="check" value="yes">
+   Credit Card Type:  Visa: <input type="radio" name="ccard" value="v"><br>
+     Mastercard: <input type="radio" name="ccard" value="m"><br>
+	 
+	 <textarea rows="10" cols="30" name="textarea"></textarea>
+	 <select name="select" size="2" multiple="multiple">
+	    <option>option1</option>
+	    <option>option2</option>
+	    <option>option3</option>
+	 </select>
+   <input type="submit" value="Click Here">
+   <input type="reset" value="Set to defaults">
+
+</form>
+
+<table border="1" width="80%" height="300" cellspacing="20" cellpadding="40">
+   <tr valign="top" align="right" style="background-color: aqua;">
+      <th>Column 1</th>
+      <th>Column 2</th>
+      <th>Column 3</th>
+   </tr>
+   <tr>
+      <td rowspan="2" valign="bottom" align="center">cell 1</td>
+      <td colspan="2">cell 2</td>
+   </tr>
+   <tr>
+      <td>cell 4</td>
+      <td>cell 5</td>
+   </tr>
+</table>
+<div>
+<img src="cell.gif" /><br />
+</div>
+<img src="lamp.jpg" /><br />
+<img src="calc.gif" /><br />
+
+<a href="http://microsoft.com" target="_blank">Click here</a><br>
+<a href="mailto:hpeters@hpeters.org?subject=test%20email&body=This is some body text&cc=harvey.peters@sait.ca">send an email</a>
+
+<ol type="i" start="10">
+   <li>item 1</li>
+   <li>item 2</li>
+   <li>item 3</li>
+   <li>item 4</li>
+</ol>
+
+<!-- comment text  -->
+<div>
+<h1>heading 1</h1>
+<h2>heading 1</h2>
+<h3>heading 1</h3>
+<h4>heading 1</h4>
+<h5>heading 1</h5>
+<h6>heading 1</h6>
+</div>
+
+
+
+This is a copyright: &copy; &#169;
+
+
+</body>
+</html>
